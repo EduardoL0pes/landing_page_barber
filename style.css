@@ -147,15 +147,12 @@ i {
   }
 }
 @media screen and (max-width: 768px) {
-  .hero {
-    min-width: 60vh;
-  }
-  .hero h1 {
+  h1 {
     font-size: 34px;
     padding: 0 14px;
     width: 100%;
   }
-  .hero p {
+  p {
     font-size: 14px;
   }
 }
