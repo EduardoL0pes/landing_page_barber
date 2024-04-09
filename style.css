@@ -274,6 +274,25 @@ i {
     flex-direction: column;
   }
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 54px 0;
+  gap: 24px;
+}
+.footer p {
+  font-size: 14px;
+}
+
+.footer-icons {
+  color: #fff;
+  display: flex;
+  gap: 10px;
+}
+
 body {
   font-family: "sora", sans-serif;
   width: 100%;
