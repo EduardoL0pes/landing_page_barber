@@ -293,6 +293,45 @@ i {
   gap: 10px;
 }
 
+.btn-whatsapp {
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  z-index: 99;
+}
+.btn-whatsapp img {
+  max-width: 64px;
+  transition: transform 0.4s;
+}
+.btn-whatsapp img:hover {
+  transform: scale(1.1);
+}
+
+.btn-whatsapp .tootips-text {
+  visibility: hidden;
+  position: absolute;
+  width: 120px;
+  top: 8px;
+  left: -144px;
+  background-color: #232224;
+  color: #fff;
+  padding: 6px;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.btn-whatsapp:hover .tootips-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-whatsapp img {
+    max-width: 54px;
+  }
+}
 body {
   font-family: "sora", sans-serif;
   width: 100%;
